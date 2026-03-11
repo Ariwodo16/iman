@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #fdf8f0;
+  --color-brand-100: #faefd9;
+  --color-brand-200: #f3d9a8;
+  --color-brand-300: #e9bc6e;
+  --color-brand-400: #dd9b3c;
+  --color-brand-500: #c97f1e;
+  --color-brand-600: #a96315;
+  --color-brand-700: #884c13;
+  --color-brand-800: #6e3c16;
+  --color-brand-900: #5a3216;
+
+  --color-earth-50: #f8f4f0;
+  --color-earth-100: #ede3d8;
+  --color-earth-200: #dcc6b0;
+  --color-earth-300: #c7a280;
+  --color-earth-400: #b07f56;
+  --color-earth-500: #9a6640;
+  --color-earth-600: #845235;
+  --color-earth-700: #6c412d;
+  --color-earth-800: #593629;
+  --color-earth-900: #2a1a10;
+
+  --color-cream: #fdf6ec;
+  --color-offwhite: #faf7f2;
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background-color: var(--color-offwhite);
+  color: var(--color-earth-900);
+  -webkit-font-smoothing: antialiased;
+}
+::selection {
+  background-color: var(--color-brand-200);
+  color: var(--color-earth-900);
+}
