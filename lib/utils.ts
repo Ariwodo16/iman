@@ -16,13 +16,12 @@ export function formatPrice(dollars: number): string {
 export const RESTAURANT = {
   name: "Iman West African Restaurant",
   tagline: "Authentic West African Flavors in Atlanta, Georgia",
-  phone: "(678) 555-0142",
-  phoneRaw: "6785550142",
-  email: "info@imanwestafrican.com",
-  address: "4920 Snapfinger Woods Dr, Decatur, GA 30035",
-  mapUrl: "https://maps.google.com/?q=4920+Snapfinger+Woods+Dr+Decatur+GA+30035",
-  mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.0!2d-84.27!3d33.70!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDQyJzAwLjAiTiA4NMKwMTYnMTIuMCJX!5e0!3m2!1sen!2sus!4v1234567890",
-  instagram: "https://instagram.com/imanwestafrican",
+  phone: "(917) 231-7217",
+  phoneRaw: "9172317217",
+  email: "imanatlanta2@gmail.com",
+  address: "5929 Jimmy Carter Blvd Norcross, Georgia 30071-2941",
+  mapUrl: "https://maps.app.goo.gl/Zo9TxSRWUADeFGsm9",
+  mapEmbed: <"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.7531552484547!2d-84.21357182482876!3d33.921752124610315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5a7a9c7588ed5%3A0x63d473cd6f97961f!2sIman%20West%20African%20Cuisine!5e0!3m2!1sen!2sus!4v1773245703818!5m2!1sen!2sus"
   facebook: "https://facebook.com/imanwestafrican",
   orderUrl: process.env.NEXT_PUBLIC_SQUARE_ORDER_URL ?? "https://squareup.com/your-order-link",
   hours: [
