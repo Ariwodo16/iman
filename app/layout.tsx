@@ -33,10 +33,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               name: RESTAURANT.name,
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "4920 Snapfinger Woods Dr",
+                streetAddress: "5929 Jimmy Carter Blvd",
                 addressLocality: "Norcross",
                 addressRegion: "GA",
-                postalCode: "30035",
+                postalCode: "30071",
                 addressCountry: "US",
               },
               telephone: RESTAURANT.phone,
